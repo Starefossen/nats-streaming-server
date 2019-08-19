@@ -95,7 +95,7 @@ Streaming Server TLS Options:
                                      verification; weaker than specifying certificates.
     -tls_client_key <string>         Client key for the streaming server
     -tls_client_cert <string>        Client certificate for the streaming server
-    -tls_client_cacert <string>      Client certificate CA for the streaming server
+    -tls_client_cacert <string>      Root CA cert for the TLS connection to the NATS Server 
 
 Streaming Server Logging Options:
     -SD, --stan_debug=<bool>         Enable STAN debugging output
